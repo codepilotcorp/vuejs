@@ -12,4 +12,6 @@ WORKDIR /app
 
 VOLUME [ "/app" ]
 
+EXPOSE 80
+
 CMD [ "yarn", "serve" ]
